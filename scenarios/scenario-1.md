@@ -1,6 +1,4 @@
-# Scenario # 1: Flexible Trust Relationships
-
-## Scenario #1: Flexible Trust Relationships
+# 🚀 Scenario # 1: Flexible Trust Relationships
 
 ### GitHub Workflow
 
