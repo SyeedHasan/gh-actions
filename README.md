@@ -1,45 +1,20 @@
-# 👋 Welcome to A Product
+---
+description: >-
+  A repository containing several scenarios I've been exploring as part of my
+  learning how to write sound GitHub actions, securing workflows, and
+  connections!
+---
 
-{% hint style="info" %}
-**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+# 👋 Hardening GitHub Actions
 
 ## Overview
 
-Here are a couple of example overviews from products with really great docs:
+The repository contains a few sample **workflows** running on GitHub's cloud-hosted runners. However, some of the controls and general hardening tips still apply to these rules. Each scenario has faulty workflows and configuration files (if an external system is involved). Go through the scenarios by using the code from individual scenarios and applying suggested controls to them.&#x20;
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+After all,
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
-
-## Quick links
-
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
-{% endcontent-ref %}
-
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
-{% endcontent-ref %}
+> _Practice maketh a man perfect_
 
 ## Get Started
 
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
-{% endcontent-ref %}
+Here are a few handy links to get started:

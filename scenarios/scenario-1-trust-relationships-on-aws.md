@@ -1,4 +1,4 @@
-# 📪 Making a post
+# ☁ Scenario # 1 - Trust Relationships on AWS
 
 ## Step 1 - Start journalling
 
