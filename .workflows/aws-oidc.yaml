@@ -1,6 +1,7 @@
 # Testing the AWS OIDC Provider
 
 name: github-aws-oidc
+on: push
 
 jobs:
   deploy:
