@@ -1,0 +1,27 @@
+# Testing the AWS OIDC Provider
+
+name: github-aws-oidc
+on: push
+
+jobs:
+  deploy:
+    name: Upload to Amazon S3
+    runs-on: ubuntu-latest
+    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials for the dummy account (Sandbox)
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: arn:aws:iam::975216159326:role/S3Admin
+        aws-region: us-east-1
+
+    - name: Make an S3 bucket
+      run: |
+        aws s3 mb s3://ijustmadeadummybucketonawss3too
+
