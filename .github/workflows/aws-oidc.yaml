@@ -23,5 +23,4 @@ jobs:
 
     - name: Make an S3 bucket
       run: |
-        aws s3 mb ijustmadeadummybucketonawss3
-
+        aws s3 mb s3://ijustmadeadummybucketonawss3too234
