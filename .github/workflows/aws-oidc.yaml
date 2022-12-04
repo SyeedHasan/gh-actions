@@ -20,8 +20,7 @@ jobs:
       with:
         role-to-assume: arn:aws:iam::975216159326:role/S3Admin
         aws-region: us-east-1
-
     - name: Make an S3 bucket
       run: |
-        aws s3 mb ijustmadeadummybucketonawss3
+        aws s3 mb s3://ijustmadeadummybucketonawss3
 
