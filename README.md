@@ -1,10 +1,3 @@
----
-description: >-
-  A repository containing several scenarios I've been exploring as part of my
-  learning how to write sound GitHub actions, securing workflows, and
-  connections!
----
-
 # 👋 Hardening GitHub Actions
 
 ## Overview

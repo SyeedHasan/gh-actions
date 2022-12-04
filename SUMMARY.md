@@ -4,4 +4,4 @@
 
 ## Scenarios
 
-* [☁ Scenario # 1 - Trust Relationships on AWS](scenarios/scenario-1-trust-relationships-on-aws.md)
+* [☁ Scenario # 1 - Trust Relationships on AWS](product-guides/making-a-post.md)
