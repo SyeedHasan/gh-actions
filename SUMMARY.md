@@ -4,4 +4,4 @@
 
 ## 🎯 Scenarios
 
-* [Scenario # 1](scenarios/scenario-1.md)
+* [Scenario # 1: Flexible Trust Relationships](scenarios/scenario-1.md)
